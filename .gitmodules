@@ -143,11 +143,3 @@
 	branch = chameleoncloud/xena
 
 #TODO! Retire or make branch
-[submodule "cyborg"]
-	path = services/cyborg
-	url = https://github.com/ChameleonCloud/cyborg
-	branch = chameleoncloud/xena
-[submodule "neutron"]
-	path = services/neutron
-	url = https://github.com/ChameleonCloud/neutron
-	branch = stable/2023.1
