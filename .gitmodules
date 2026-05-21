@@ -96,3 +96,6 @@
 [submodule "clients/python-chi-edge"]
 	path = clients/python-chi-edge
 	url = https://github.com/ChameleonCloud/python-chi-edge
+[submodule "services/cc-images"]
+	path = services/cc-images
+	url = https://github.com/ChameleonCloud/cc-images
