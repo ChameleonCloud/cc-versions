@@ -131,10 +131,6 @@
 	path = services/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
 	branch = chameleoncloud/xena
-[submodule "neutron"]
-	path = services/neutron
-	url = https://github.com/ChameleonCloud/neutron
-	branch = chameleoncloud/xena
 [submodule "blazar-nova"]
 	path = services/blazar-nova
 	url = https://github.com/ChameleonCloud/blazar-nova
