@@ -120,7 +120,7 @@
 [submodule "python-doniclient"]
 	path = clients/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
-	branch = main
+	branch = chameleoncloud/2023.1
 [submodule "networking-wireguard"]
 	path = services/networking-wireguard
 	url = https://github.com/ChameleonCloud/networking-wireguard
