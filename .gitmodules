@@ -128,7 +128,7 @@
 [submodule "tunelo"]
 	path = services/tunelo
 	url = https://github.com/ChameleonCloud/tunelo
-	branch = chameleoncloud/xena
+	branch = chameleoncloud/2023.1
 [submodule "zun"]
 	path = services/zun
 	url = https://github.com/ChameleonCloud/zun
