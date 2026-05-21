@@ -30,12 +30,15 @@
 [submodule "python-chi-edge"]
 	path = clients/python-chi-edge
 	url = https://github.com/ChameleonCloud/python-chi-edge
+	branch = main
 [submodule "cc-images"]
 	path = utils/cc-images
 	url = https://github.com/ChameleonCloud/cc-images
+	branch = main
 [submodule "chi-edge-workers"]
 	path = deploy/chi-edge-workers
 	url = https://github.com/ChameleonCloud/chi-edge-workers
+	branch = main
 
 
 #######################
@@ -46,11 +49,11 @@
 [submodule "chi-in-a-box"]
 	path = deploy/chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
-	branch = stable/2023.1
+	branch = stable/xena
 [submodule "kolla-containers"]
 	path = build/kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
-	branch = stable/2023.1
+	branch = backport/xena-edge
 [submodule "doni"]
 	path = services/doni
 	url = https://github.com/ChameleonCloud/doni
@@ -58,6 +61,7 @@
 [submodule "python-doniclient"]
 	path = clients/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
+	branch = main
 [submodule "tunelo"]
 	path = services/tunelo
 	url = https://github.com/ChameleonCloud/tunelo
@@ -74,19 +78,19 @@
 [submodule "kolla-ansible"]
 	path = deploy/kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "kolla"]
 	path = build/kolla
 	url = https://github.com/ChameleonCloud/kolla
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "horizon"]
 	path = services/horizon
 	url = https://github.com/ChameleonCloud/horizon
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "ironic"]
 	path = services/ironic
 	url = https://github.com/ChameleonCloud/ironic
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "zun"]
 	path = services/zun
 	url = https://github.com/ChameleonCloud/zun
@@ -94,44 +98,52 @@
 [submodule "blazar"]
 	path = services/blazar
 	url = https://github.com/ChameleonCloud/blazar
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "blazar-dashboard"]
 	path = services/blazar-dashboard
 	url = https://github.com/ChameleonCloud/blazar-dashboard
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "networking-generic-switch"]
 	path = services/networking-generic-switch
 	url = https://github.com/ChameleonCloud/networking-generic-switch
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "nova"]
 	path = services/nova
 	url = https://github.com/ChameleonCloud/nova
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "python-blazarclient"]
 	path = clients/python-blazarclient
 	url = https://github.com/ChameleonCloud/python-blazarclient
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
 [submodule "keystone"]
 	path = services/keystone
 	url = https://github.com/ChameleonCloud/keystone
+	branch = chameleoncloud/xena
 [submodule "heat"]
 	path = services/heat
 	url = https://github.com/ChameleonCloud/heat
+	branch = chameleoncloud/xena
 [submodule "heat-dashboard"]
 	path = services/heat-dashboard
 	url = https://github.com/ChameleonCloud/heat-dashboard
+	branch = chameleoncloud/xena
 [submodule "zun-ui"]
 	path = services/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
+	branch = chameleoncloud/xena
 [submodule "neutron"]
 	path = services/neutron
 	url = https://github.com/ChameleonCloud/neutron
+	branch = chameleoncloud/xena
 [submodule "blazar-nova"]
 	path = services/blazar-nova
 	url = https://github.com/ChameleonCloud/blazar-nova
+	branch = chameleoncloud/xena
 [submodule "cyborg"]
 	path = services/cyborg
 	url = https://github.com/ChameleonCloud/cyborg
+	branch = chameleoncloud/xena
 [submodule "python-zunclient"]
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
+	branch = chameleoncloud/xena
