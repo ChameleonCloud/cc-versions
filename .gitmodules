@@ -135,10 +135,6 @@
 	path = services/blazar-nova
 	url = https://github.com/ChameleonCloud/blazar-nova
 	branch = chameleoncloud/xena
-[submodule "cyborg"]
-	path = services/cyborg
-	url = https://github.com/ChameleonCloud/cyborg
-	branch = chameleoncloud/xena
 [submodule "python-zunclient"]
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
