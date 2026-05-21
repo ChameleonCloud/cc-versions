@@ -58,18 +58,6 @@
 	path = services/doni
 	url = https://github.com/ChameleonCloud/doni
 	branch = chameleoncloud/2023.1
-[submodule "python-doniclient"]
-	path = clients/python-doniclient
-	url = https://github.com/ChameleonCloud/python-doniclient
-	branch = main
-[submodule "tunelo"]
-	path = services/tunelo
-	url = https://github.com/ChameleonCloud/tunelo
-	branch = chameleoncloud/2023.1
-[submodule "networking-wireguard"]
-	path = services/networking-wireguard
-	url = https://github.com/ChameleonCloud/networking-wireguard
-	branch = chameleoncloud/2023.1
 
 #######################
 # Versioned per release
@@ -90,10 +78,6 @@
 [submodule "ironic"]
 	path = services/ironic
 	url = https://github.com/ChameleonCloud/ironic
-	branch = chameleoncloud/2023.1
-[submodule "zun"]
-	path = services/zun
-	url = https://github.com/ChameleonCloud/zun
 	branch = chameleoncloud/2023.1
 [submodule "blazar"]
 	path = services/blazar
@@ -127,23 +111,43 @@
 	path = services/heat-dashboard
 	url = https://github.com/ChameleonCloud/heat-dashboard
 	branch = chameleoncloud/2023.1
-[submodule "zun-ui"]
-	path = services/zun-ui
-	url = https://github.com/ChameleonCloud/zun-ui
-	branch = chameleoncloud/2023.1
-[submodule "neutron"]
-	path = services/neutron
-	url = https://github.com/ChameleonCloud/neutron
-	branch = chameleoncloud/2023.1
 [submodule "blazar-nova"]
 	path = services/blazar-nova
 	url = https://github.com/ChameleonCloud/blazar-nova
 	branch = chameleoncloud/2023.1
-[submodule "cyborg"]
-	path = services/cyborg
-	url = https://github.com/ChameleonCloud/cyborg
-	branch = chameleoncloud/2023.1
+
+# TODO! Make branches
+[submodule "python-doniclient"]
+	path = clients/python-doniclient
+	url = https://github.com/ChameleonCloud/python-doniclient
+	branch = main
+[submodule "networking-wireguard"]
+	path = services/networking-wireguard
+	url = https://github.com/ChameleonCloud/networking-wireguard
+	branch = chameleoncloud/xena
+[submodule "tunelo"]
+	path = services/tunelo
+	url = https://github.com/ChameleonCloud/tunelo
+	branch = chameleoncloud/xena
+[submodule "zun"]
+	path = services/zun
+	url = https://github.com/ChameleonCloud/zun
+	branch = chameleoncloud/xena
+[submodule "zun-ui"]
+	path = services/zun-ui
+	url = https://github.com/ChameleonCloud/zun-ui
+	branch = chameleoncloud/xena
 [submodule "python-zunclient"]
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
-	branch = chameleoncloud/2023.1
+	branch = chameleoncloud/xena
+
+#TODO! Retire or make branch
+[submodule "cyborg"]
+	path = services/cyborg
+	url = https://github.com/ChameleonCloud/cyborg
+	branch = chameleoncloud/xena
+[submodule "neutron"]
+	path = services/neutron
+	url = https://github.com/ChameleonCloud/neutron
+	branch = stable/2023.1
