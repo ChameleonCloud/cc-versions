@@ -90,12 +90,39 @@
 	path = clients/python-blazarclient
 	url = https://github.com/ChameleonCloud/python-blazarclient
 	branch = chameleoncloud/2023.1
-[submodule "clients/python-"]
-	path = clients/python-chi-edge/python-
-	url = https://github.com/ChameleonCloud/python-chi-edge
 [submodule "clients/python-chi-edge"]
 	path = clients/python-chi-edge
 	url = https://github.com/ChameleonCloud/python-chi-edge
 [submodule "services/cc-images"]
 	path = services/cc-images
 	url = https://github.com/ChameleonCloud/cc-images
+[submodule "services/keystone"]
+	path = services/keystone
+	url = https://github.com/ChameleonCloud/keystone
+[submodule "services/heat"]
+	path = services/heat
+	url = https://github.com/ChameleonCloud/heat
+[submodule "services/heat-dashboard"]
+	path = services/heat-dashboard
+	url = https://github.com/ChameleonCloud/heat-dashboard
+[submodule "services/zun-ui"]
+	path = services/zun-ui
+	url = https://github.com/ChameleonCloud/zun-ui
+[submodule "services/neutron"]
+	path = services/neutron
+	url = https://github.com/ChameleonCloud/neutron
+[submodule "services/blazar-nova"]
+	path = services/blazar-nova
+	url = https://github.com/ChameleonCloud/blazar-nova
+[submodule "services/cyborg"]
+	path = services/cyborg
+	url = https://github.com/ChameleonCloud/cyborg
+[submodule "clients/python-zunclient"]
+	path = clients/python-zunclient
+	url = https://github.com/ChameleonCloud/python-zunclient
+[submodule "clients/python-doniclient"]
+	path = clients/python-doniclient
+	url = https://github.com/ChameleonCloud/python-doniclient
+[submodule "deploy/chi-edge-workers"]
+	path = deploy/chi-edge-workers
+	url = https://github.com/ChameleonCloud/chi-edge-workers
