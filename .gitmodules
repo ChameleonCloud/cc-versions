@@ -39,6 +39,13 @@
 	path = deploy/chi-edge-workers
 	url = https://github.com/ChameleonCloud/chi-edge-workers
 	branch = main
+[submodule "cc-snapshot"]
+	path = utils/cc-snapshot
+	url = https://github.com/ChameleonCloud/cc-snapshot
+	branch = master
+[submodule "reference-repository"]
+	path = utils/reference-repository
+	url = https://github.com/ChameleonCloud/reference-repository
 
 
 #######################
@@ -141,5 +148,6 @@
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
 	branch = chameleoncloud/xena
-
-#TODO! Retire or make branch
+[submodule "ansible-collections-openstack"]
+	path = utils/ansible-collections-openstack
+	url = https://github.com/openstack/ansible-collections-openstack
