@@ -123,7 +123,6 @@
 	url = https://github.com/ChameleonCloud/blazar-nova
 	branch = chameleoncloud/2023.1
 
-# TODO! Make branches
 [submodule "python-doniclient"]
 	path = clients/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
