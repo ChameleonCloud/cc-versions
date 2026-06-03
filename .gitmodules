@@ -123,7 +123,6 @@
 	url = https://github.com/ChameleonCloud/blazar-nova
 	branch = chameleoncloud/2023.1
 
-# TODO! Make branches
 [submodule "python-doniclient"]
 	path = clients/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
@@ -131,7 +130,7 @@
 [submodule "networking-wireguard"]
 	path = services/networking-wireguard
 	url = https://github.com/ChameleonCloud/networking-wireguard
-	branch = chameleoncloud/xena
+	branch = chameleoncloud/2023.1
 [submodule "tunelo"]
 	path = services/tunelo
 	url = https://github.com/ChameleonCloud/tunelo
@@ -139,7 +138,7 @@
 [submodule "zun"]
 	path = services/zun
 	url = https://github.com/ChameleonCloud/zun
-	branch = chameleoncloud/xena
+	branch = chameleoncloud/2023.1
 [submodule "zun-ui"]
 	path = services/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
@@ -147,7 +146,7 @@
 [submodule "python-zunclient"]
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
-	branch = chameleoncloud/xena
+	branch = chameleoncloud/2023.1
 [submodule "ansible-collections-openstack"]
 	path = utils/ansible-collections-openstack
 	url = https://github.com/openstack/ansible-collections-openstack
