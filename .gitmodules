@@ -57,16 +57,6 @@
 	path = utils/cc-snapshot
 	url = https://github.com/ChameleonCloud/cc-snapshot
 	branch = master
-[submodule "reference-repository"]
-	path = utils/reference-repository
-	url = https://github.com/ChameleonCloud/reference-repository
-
-
-#######################
-# Versioned per release
-#######################
-
-# Chameleon Only, no forks
 [submodule "chi-in-a-box"]
 	path = deploy/chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
