@@ -147,6 +147,3 @@
 	path = clients/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
 	branch = chameleoncloud/2023.1
-[submodule "ansible-collections-openstack"]
-	path = utils/ansible-collections-openstack
-	url = https://github.com/openstack/ansible-collections-openstack
