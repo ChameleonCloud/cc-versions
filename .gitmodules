@@ -128,10 +128,6 @@
 	path = forks-release/blazar-dashboard
 	url = https://github.com/ChameleonCloud/blazar-dashboard
 	branch = wip/chameleoncloud/2024.1
-[submodule "blazar-nova"]
-	path = forks-release/blazar-nova
-	url = https://github.com/ChameleonCloud/blazar-nova
-	branch = wip/chameleoncloud/2024.1
 [submodule "blazar"]
 	path = forks-release/blazar
 	url = https://github.com/ChameleonCloud/blazar
