@@ -81,8 +81,7 @@
 [submodule "python-doniclient"]
 	path = chameleon-release/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2024.1
 [submodule "doni"]
 	path = chameleon-release/doni
 	url = https://github.com/ChameleonCloud/doni
