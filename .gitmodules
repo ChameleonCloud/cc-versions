@@ -120,8 +120,7 @@
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2024.1
 
 # Blazar
 [submodule "python-blazarclient"]
