@@ -86,8 +86,7 @@
 [submodule "doni"]
 	path = chameleon-release/doni
 	url = https://github.com/ChameleonCloud/doni
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2024.1
 
 [submodule "networking-wireguard"]
 	path = chameleon-release/networking-wireguard
