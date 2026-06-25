@@ -7,3 +7,12 @@ updates:
       time: "08:00"
       timezone: "America/Chicago"
     open-pull-requests-limit: 5
+    groups:
+      chameleon-rolling:
+        patterns: ["chameleon-rolling/*"]
+      chameleon-release:
+        patterns: ["chameleon-release/*"]
+      forks-rolling:
+        patterns: ["forks-rolling/*"]
+      forks-release:
+        patterns: ["forks-release/*"]
