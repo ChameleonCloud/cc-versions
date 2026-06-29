@@ -180,8 +180,7 @@
 [submodule "nova"]
 	path = forks-release/nova
 	url = https://github.com/ChameleonCloud/nova
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2024.1
 
 # Zun
 [submodule "python-zunclient"]
