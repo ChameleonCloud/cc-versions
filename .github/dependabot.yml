@@ -8,11 +8,17 @@ updates:
       timezone: "America/Chicago"
     open-pull-requests-limit: 5
     groups:
-      chameleon-rolling:
-        patterns: ["chameleon-rolling/*"]
-      chameleon-release:
-        patterns: ["chameleon-release/*"]
-      forks-rolling:
-        patterns: ["forks-rolling/*"]
-      forks-release:
-        patterns: ["forks-release/*"]
+      "2023.1":
+        patterns: ["*"]
+    target-branch: "chameleoncloud/2023.1"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 5
+    groups:
+      "2024.1":
+        patterns: ["*"]
+    target-branch: "chameleoncloud/2024.1"
