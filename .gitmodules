@@ -64,35 +64,35 @@
 ###############################################################
 # chameleon-release
 # Chameleon-only, versioned per openstack release.
-# Pinned to a release branch (chameleoncloud/2024.1, stable/2024.1).
+# Pinned to a release branch (chameleoncloud/2025.1, stable/2025.1).
 ###############################################################
 
 [submodule "chi-in-a-box"]
 	path = chameleon-release/chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "kolla-containers"]
 	path = chameleon-release/kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
-	branch = chameleoncloud/2024.1
+	branch = chameleoncloud/2025.1
 
 [submodule "python-doniclient"]
 	path = chameleon-release/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "doni"]
 	path = chameleon-release/doni
 	url = https://github.com/ChameleonCloud/doni
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 [submodule "networking-wireguard"]
 	path = chameleon-release/networking-wireguard
 	url = https://github.com/ChameleonCloud/networking-wireguard
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "tunelo"]
 	path = chameleon-release/tunelo
 	url = https://github.com/ChameleonCloud/tunelo
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 
 ###############################################################
@@ -105,36 +105,33 @@
 ###############################################################
 # forks-release
 # Forks of upstream, versioned per openstack release.
-# all chameleoncloud/2024.1 branches are chameleon patches rebased
-# onto the most recent 2024.1 upstream branch or commit.
-# either 2024.1-eom, 2024.1-eol, or unmaintained/2024.1
+# all chameleoncloud/2025.1 branches are chameleon patches rebased
+# onto the most recent 2025.1 upstream branch or commit.
+# Currently stable/2025.1 for all repos.
 ###############################################################
 
 [submodule "kolla-ansible"]
 	path = forks-release/kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Blazar
 [submodule "python-blazarclient"]
 	path = forks-release/python-blazarclient
 	url = https://github.com/ChameleonCloud/python-blazarclient
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "blazar-dashboard"]
 	path = forks-release/blazar-dashboard
 	url = https://github.com/ChameleonCloud/blazar-dashboard
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "blazar"]
 	path = forks-release/blazar
 	url = https://github.com/ChameleonCloud/blazar
-	# branch = wip/chameleoncloud/2024.1
-	branch = chameleoncloud/2023.1
+	branch = wip/chameleoncloud/2025.1
 
 # Cinder: N/A
 
@@ -144,52 +141,52 @@
 [submodule "heat"]
 	path = forks-release/heat
 	url = https://github.com/ChameleonCloud/heat
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "heat-dashboard"]
 	path = forks-release/heat-dashboard
 	url = https://github.com/ChameleonCloud/heat-dashboard
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Horizon
 [submodule "horizon"]
 	path = forks-release/horizon
 	url = https://github.com/ChameleonCloud/horizon
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Ironic
 [submodule "ironic"]
 	path = forks-release/ironic
 	url = https://github.com/ChameleonCloud/ironic
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Keystone
 [submodule "keystone"]
 	path = forks-release/keystone
 	url = https://github.com/ChameleonCloud/keystone
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Neutron
 [submodule "networking-generic-switch"]
 	path = forks-release/networking-generic-switch
 	url = https://github.com/ChameleonCloud/networking-generic-switch
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Nova
 [submodule "nova"]
 	path = forks-release/nova
 	url = https://github.com/ChameleonCloud/nova
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 
 # Zun
 [submodule "python-zunclient"]
 	path = forks-release/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "zun-ui"]
 	path = forks-release/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "zun"]
 	path = forks-release/zun
 	url = https://github.com/ChameleonCloud/zun
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
