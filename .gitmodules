@@ -74,7 +74,7 @@
 [submodule "kolla-containers"]
 	path = chameleon-release/kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
-	branch = chameleoncloud/2024.1
+	branch = chameleoncloud/2025.1
 
 [submodule "python-doniclient"]
 	path = chameleon-release/python-doniclient
