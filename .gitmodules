@@ -70,7 +70,7 @@
 [submodule "chi-in-a-box"]
 	path = chameleon-release/chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "kolla-containers"]
 	path = chameleon-release/kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
@@ -113,7 +113,7 @@
 [submodule "kolla-ansible"]
 	path = forks-release/kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
-	branch = wip/chameleoncloud/2024.1
+	branch = wip/chameleoncloud/2025.1
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
