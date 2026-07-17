@@ -70,11 +70,11 @@
 [submodule "chi-in-a-box"]
 	path = chameleon-release/chi-in-a-box
 	url = https://github.com/ChameleonCloud/chi-in-a-box
-	branch = wip/chameleoncloud/2025.1
+	branch = wip/chameleoncloud/2024.1
 [submodule "kolla-containers"]
 	path = chameleon-release/kolla-containers
 	url = https://github.com/ChameleonCloud/kolla-containers
-	branch = chameleoncloud/2025.1
+	branch = chameleoncloud/2024.1
 
 [submodule "python-doniclient"]
 	path = chameleon-release/python-doniclient
@@ -113,7 +113,7 @@
 [submodule "kolla-ansible"]
 	path = forks-release/kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
-	branch = wip/chameleoncloud/2025.1
+	branch = wip/chameleoncloud/2024.1
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
@@ -190,3 +190,7 @@
 	path = forks-release/zun
 	url = https://github.com/ChameleonCloud/zun
 	branch = wip/chameleoncloud/2025.1
+[submodule "forks-release/netmiko"]
+	path = forks-release/netmiko
+	url = https://github.com/ChameleonCloud/netmiko
+	branch = chameleoncloud/v4.5.0
