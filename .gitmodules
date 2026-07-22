@@ -194,3 +194,7 @@
 	path = forks-release/zun
 	url = https://github.com/ChameleonCloud/zun
 	branch = chameleoncloud/2023.1
+[submodule "forks-release/netmiko"]
+	path = forks-release/netmiko
+	url = https://github.com/ChameleonCloud/netmiko
+	branch = chameleoncloud/v4.1.2
