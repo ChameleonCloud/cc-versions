@@ -109,6 +109,10 @@
 # onto the most recent 2024.1 upstream branch or commit.
 # either 2024.1-eom, 2024.1-eol, or unmaintained/2024.1
 ###############################################################
+[submodule "forks-release/netmiko"]
+	path = forks-release/netmiko
+	url = https://github.com/ChameleonCloud/netmiko
+	branch = chameleoncloud/v4.1.2
 
 [submodule "kolla-ansible"]
 	path = forks-release/kolla-ansible
