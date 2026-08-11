@@ -79,20 +79,20 @@
 [submodule "python-doniclient"]
 	path = chameleon-release/python-doniclient
 	url = https://github.com/ChameleonCloud/python-doniclient
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 [submodule "doni"]
 	path = chameleon-release/doni
 	url = https://github.com/ChameleonCloud/doni
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 [submodule "networking-wireguard"]
 	path = chameleon-release/networking-wireguard
 	url = https://github.com/ChameleonCloud/networking-wireguard
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 [submodule "tunelo"]
 	path = chameleon-release/tunelo
 	url = https://github.com/ChameleonCloud/tunelo
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 
 ###############################################################
@@ -121,7 +121,7 @@
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Blazar
 [submodule "python-blazarclient"]
@@ -145,11 +145,11 @@
 [submodule "heat"]
 	path = forks-release/heat
 	url = https://github.com/ChameleonCloud/heat
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 [submodule "heat-dashboard"]
 	path = forks-release/heat-dashboard
 	url = https://github.com/ChameleonCloud/heat-dashboard
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Horizon
 [submodule "horizon"]
@@ -161,36 +161,36 @@
 [submodule "ironic"]
 	path = forks-release/ironic
 	url = https://github.com/ChameleonCloud/ironic
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Keystone
 [submodule "keystone"]
 	path = forks-release/keystone
 	url = https://github.com/ChameleonCloud/keystone
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Neutron
 [submodule "networking-generic-switch"]
 	path = forks-release/networking-generic-switch
 	url = https://github.com/ChameleonCloud/networking-generic-switch
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Nova
 [submodule "nova"]
 	path = forks-release/nova
 	url = https://github.com/ChameleonCloud/nova
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 
 # Zun
 [submodule "python-zunclient"]
 	path = forks-release/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 [submodule "zun-ui"]
 	path = forks-release/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
 [submodule "zun"]
 	path = forks-release/zun
 	url = https://github.com/ChameleonCloud/zun
-	branch = wip/chameleoncloud/2024.1
+	branch = chameleoncloud/2024.1
