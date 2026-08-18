@@ -123,11 +123,11 @@
 [submodule "python-blazarclient"]
 	path = forks-release/python-blazarclient
 	url = https://github.com/ChameleonCloud/python-blazarclient
-	branch = wip/chameleoncloud/2025.1
+	branch = chameleoncloud/2025.1
 [submodule "blazar-dashboard"]
 	path = forks-release/blazar-dashboard
 	url = https://github.com/ChameleonCloud/blazar-dashboard
-	branch = wip/chameleoncloud/2025.1
+	branch = chameleoncloud/2025.1
 [submodule "blazar"]
 	path = forks-release/blazar
 	url = https://github.com/ChameleonCloud/blazar
@@ -151,7 +151,7 @@
 [submodule "horizon"]
 	path = forks-release/horizon
 	url = https://github.com/ChameleonCloud/horizon
-	branch = wip/chameleoncloud/2025.1
+	branch = chameleoncloud/2025.1
 
 # Ironic
 [submodule "ironic"]
