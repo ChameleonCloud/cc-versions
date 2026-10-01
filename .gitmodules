@@ -165,6 +165,12 @@
 	url = https://github.com/ChameleonCloud/keystone
 	branch = chameleoncloud/2025.1
 
+# Manila
+[submodule "manila"]
+	path = forks-release/manila
+	url = https://github.com/ChameleonCloud/manila
+	branch = chameleoncloud/2025.1
+
 # Neutron
 [submodule "networking-generic-switch"]
 	path = forks-release/networking-generic-switch
