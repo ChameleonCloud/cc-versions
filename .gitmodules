@@ -131,7 +131,7 @@
 [submodule "blazar"]
 	path = forks-release/blazar
 	url = https://github.com/ChameleonCloud/blazar
-	branch = wip/chameleoncloud/2025.1
+	branch = chameleoncloud/2025.1
 
 # Cinder: N/A
 
