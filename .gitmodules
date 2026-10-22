@@ -60,6 +60,16 @@
 	url = https://github.com/ChameleonCloud/cc-snapshot
 	branch = master
 
+[submodule "chameleon-vendordata"]
+	path = chameleon-rolling/chameleon-vendordata
+	url = https://github.com/ChameleonCloud/chameleon-vendordata
+	branch = master
+
+[submodule "chameleon-rolling/horizon-theme"]
+	path = chameleon-rolling/horizon-theme
+	url = https://github.com/ChameleonCloud/horizon-theme
+	branch = master
+
 
 ###############################################################
 # chameleon-release
@@ -200,7 +210,3 @@
 	path = forks-release/netmiko
 	url = https://github.com/ChameleonCloud/netmiko
 	branch = chameleoncloud/v4.5.0
-[submodule "chameleon-vendordata"]
-	path = chameleon-rolling/chameleon-vendordata
-	url = https://github.com/ChameleonCloud/chameleon-vendordata
-	branch = master
