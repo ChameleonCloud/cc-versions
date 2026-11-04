@@ -1,0 +1,40 @@
+# Move submodule pins to the tip of each submodule's branch and open
+# (or update) one PR with the changes. Replaces dependabot's
+# gitsubmodule updates, which failed the whole job on a private repo.
+name: Bump submodule pins
+
+on:
+  schedule:
+    - cron: "0 14 * * *" # 08:00 America/Chicago in winter, 09:00 in summer
+  workflow_dispatch:
+
+jobs:
+  bump-pins:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Bump pins
+        run: scripts/bump-pins.sh | tee "$RUNNER_TEMP/changes.txt"
+
+      - name: Open or update the PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.ref_name }}
+        run: |
+          if git diff --quiet; then
+            echo "No pins moved."
+            exit 0
+          fi
+          branch="bump-pins/$BASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git commit -qam "Bump submodule pins"
+          git push --force origin "$branch"
+          body=$(printf '```\n%s\n```\n' "$(cat "$RUNNER_TEMP/changes.txt")")
+          gh pr create --base "$BASE" --head "$branch" --title "Bump submodule pins" --body "$body" \
+            || gh pr edit "$branch" --body "$body"
