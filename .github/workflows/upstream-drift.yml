@@ -1,0 +1,25 @@
+# List upstream commits that our forks' branches don't contain, in the
+# run summary. Read-only.
+name: Upstream drift
+
+on:
+  schedule:
+    - cron: "0 14 * * *" # 08:00 America/Chicago in winter, 09:00 in summer
+  workflow_dispatch:
+
+jobs:
+  upstream-drift:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: List upstream commits missing from our forks
+        run: |
+          scripts/upstream-drift.sh | tee "$RUNNER_TEMP/drift.txt"
+          {
+            echo '```'
+            cat "$RUNNER_TEMP/drift.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

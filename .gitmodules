@@ -117,31 +117,46 @@
 # Forks of upstream, versioned per openstack release.
 # all chameleoncloud/2025.1 branches are chameleon patches rebased
 # onto the most recent 2025.1 upstream branch or commit.
-# Currently stable/2025.1 for all repos.
+#
+# upstream:     the repo we fork from.
+# upstream-ref: the upstream branch or tag that `branch` should
+#               contain. Edit it when upstream moves, e.g.
+#               stable/2025.1 -> unmaintained/2025.1 -> 2025.1-eol.
+# Git ignores both keys; scripts/submodule-drift.sh reads them.
 ###############################################################
 
 [submodule "kolla-ansible"]
 	path = forks-release/kolla-ansible
 	url = https://github.com/ChameleonCloud/kolla-ansible
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/kolla-ansible
+	upstream-ref = unmaintained/2025.1
 [submodule "kolla"]
 	path = forks-release/kolla
 	url = https://github.com/ChameleonCloud/kolla
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/kolla
+	upstream-ref = unmaintained/2025.1
 
 # Blazar
 [submodule "python-blazarclient"]
 	path = forks-release/python-blazarclient
 	url = https://github.com/ChameleonCloud/python-blazarclient
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/python-blazarclient
+	upstream-ref = unmaintained/2025.1
 [submodule "blazar-dashboard"]
 	path = forks-release/blazar-dashboard
 	url = https://github.com/ChameleonCloud/blazar-dashboard
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/blazar-dashboard
+	upstream-ref = unmaintained/2025.1
 [submodule "blazar"]
 	path = forks-release/blazar
 	url = https://github.com/ChameleonCloud/blazar
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/blazar
+	upstream-ref = unmaintained/2025.1
 
 # Cinder: N/A
 
@@ -152,61 +167,85 @@
 	path = forks-release/heat
 	url = https://github.com/ChameleonCloud/heat
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/heat
+	upstream-ref = unmaintained/2025.1
 [submodule "heat-dashboard"]
 	path = forks-release/heat-dashboard
 	url = https://github.com/ChameleonCloud/heat-dashboard
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/heat-dashboard
+	upstream-ref = unmaintained/2025.1
 
 # Horizon
 [submodule "horizon"]
 	path = forks-release/horizon
 	url = https://github.com/ChameleonCloud/horizon
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/horizon
+	upstream-ref = unmaintained/2025.1
 
 # Ironic
 [submodule "ironic"]
 	path = forks-release/ironic
 	url = https://github.com/ChameleonCloud/ironic
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/ironic
+	upstream-ref = unmaintained/2025.1
 
 # Keystone
 [submodule "keystone"]
 	path = forks-release/keystone
 	url = https://github.com/ChameleonCloud/keystone
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/keystone
+	upstream-ref = unmaintained/2025.1
 
 # Manila
 [submodule "manila"]
 	path = forks-release/manila
 	url = https://github.com/ChameleonCloud/manila
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/manila
+	upstream-ref = unmaintained/2025.1
 
 # Neutron
 [submodule "networking-generic-switch"]
 	path = forks-release/networking-generic-switch
 	url = https://github.com/ChameleonCloud/networking-generic-switch
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/networking-generic-switch
+	upstream-ref = unmaintained/2025.1
 
 # Nova
 [submodule "nova"]
 	path = forks-release/nova
 	url = https://github.com/ChameleonCloud/nova
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/nova
+	upstream-ref = unmaintained/2025.1
 
 # Zun
 [submodule "python-zunclient"]
 	path = forks-release/python-zunclient
 	url = https://github.com/ChameleonCloud/python-zunclient
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/python-zunclient
+	upstream-ref = unmaintained/2025.1
 [submodule "zun-ui"]
 	path = forks-release/zun-ui
 	url = https://github.com/ChameleonCloud/zun-ui
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/zun-ui
+	upstream-ref = unmaintained/2025.1
 [submodule "zun"]
 	path = forks-release/zun
 	url = https://github.com/ChameleonCloud/zun
 	branch = chameleoncloud/2025.1
+	upstream = https://github.com/openstack/zun
+	upstream-ref = unmaintained/2025.1
 [submodule "forks-release/netmiko"]
 	path = forks-release/netmiko
 	url = https://github.com/ChameleonCloud/netmiko
 	branch = chameleoncloud/v4.5.0
+	upstream = https://github.com/ktbyers/netmiko
+	upstream-ref = v4.5.0
